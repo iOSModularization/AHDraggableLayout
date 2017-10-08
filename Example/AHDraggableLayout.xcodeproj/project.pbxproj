@@ -31,7 +31,7 @@
 		22E6A3AD913B3B13824056DA /* Pods-AHDraggableLayout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHDraggableLayout_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AHDraggableLayout_Tests/Pods-AHDraggableLayout_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3CDC9AB958D014869F63C09E /* Pods_AHDraggableLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AHDraggableLayout_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E091AF231BF1943DCCA7A55 /* Pods-AHDraggableLayout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHDraggableLayout_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AHDraggableLayout_Tests/Pods-AHDraggableLayout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		51801F43D627A70FAF7E9AA3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		51801F43D627A70FAF7E9AA3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* AHDraggableLayout_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AHDraggableLayout_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,8 +43,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		729BB967378AD5875629B9C5 /* Pods-AHDraggableLayout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHDraggableLayout_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AHDraggableLayout_Example/Pods-AHDraggableLayout_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A1782FA0324A9A77B403633E /* AHDraggableLayout.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AHDraggableLayout.podspec; path = ../AHDraggableLayout.podspec; sourceTree = "<group>"; };
-		BBEB0CC365DDF12423D92A09 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A1782FA0324A9A77B403633E /* AHDraggableLayout.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AHDraggableLayout.podspec; path = ../AHDraggableLayout.podspec; sourceTree = "<group>"; };
+		BBEB0CC365DDF12423D92A09 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D060AA0D8CC9F24D19AE9855 /* Pods-AHDraggableLayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHDraggableLayout_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AHDraggableLayout_Example/Pods-AHDraggableLayout_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F929EFBFC9BD0CBF3A546EEB /* Pods_AHDraggableLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AHDraggableLayout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -215,6 +215,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = MVFF28UQZP;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -517,6 +518,7 @@
 			baseConfigurationReference = 729BB967378AD5875629B9C5 /* Pods-AHDraggableLayout_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MVFF28UQZP;
 				INFOPLIST_FILE = AHDraggableLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -532,6 +534,7 @@
 			baseConfigurationReference = D060AA0D8CC9F24D19AE9855 /* Pods-AHDraggableLayout_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MVFF28UQZP;
 				INFOPLIST_FILE = AHDraggableLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
