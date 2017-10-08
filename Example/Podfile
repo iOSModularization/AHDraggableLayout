@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AHDraggableLayout_Example' do
+  pod 'AHDraggableLayout', :path => '../'
+
+  target 'AHDraggableLayout_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
