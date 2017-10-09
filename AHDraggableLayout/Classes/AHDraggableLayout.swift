@@ -16,9 +16,6 @@ public class AHDraggableLayout: UICollectionViewFlowLayout {
     var draggingView: UIView?
     var dragOffset = CGPoint.zero
     
-    public init() {
-        super.init()
-    }
     
     override func prepare() {
         super.prepare()

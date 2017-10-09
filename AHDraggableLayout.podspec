@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AHDraggableLayout'
-  s.version          = '0.1.03'
+  s.version          = '0.1.04'
   s.summary          = 'A short description of AHDraggableLayout.'
 
 # This description is used to generate tags and improve search results.
