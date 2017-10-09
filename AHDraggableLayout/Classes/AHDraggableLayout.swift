@@ -17,7 +17,7 @@ public class AHDraggableLayout: UICollectionViewFlowLayout {
     var dragOffset = CGPoint.zero
     
     
-    override func prepare() {
+    public override func prepare() {
         super.prepare()
         
         installGestureRecognizer()
@@ -27,7 +27,7 @@ public class AHDraggableLayout: UICollectionViewFlowLayout {
         attributes.alpha = 0
     }
     
-    override func layoutAttributesForElements(in rect: CGRect) -> [UICollectionViewLayoutAttributes]? {
+    public override func layoutAttributesForElements(in rect: CGRect) -> [UICollectionViewLayoutAttributes]? {
         let attributes = super.layoutAttributesForElements(in: rect)
         attributes?.forEach { a in
             if a.indexPath == draggingIndexPath {
@@ -39,7 +39,7 @@ public class AHDraggableLayout: UICollectionViewFlowLayout {
         return attributes
     }
     
-    override func layoutAttributesForItem(at indexPath: IndexPath) -> UICollectionViewLayoutAttributes? {
+    public override func layoutAttributesForItem(at indexPath: IndexPath) -> UICollectionViewLayoutAttributes? {
         let attributes = super.layoutAttributesForItem(at: indexPath)
         if let attributes = attributes, indexPath == draggingIndexPath {
             if attributes.representedElementCategory == .cell {
