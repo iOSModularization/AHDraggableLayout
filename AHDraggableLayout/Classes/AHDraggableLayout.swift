@@ -9,12 +9,16 @@
 import UIKit
 
 
-class AHDraggableLayout: UICollectionViewFlowLayout {
+public class AHDraggableLayout: UICollectionViewFlowLayout {
     var longPress: UILongPressGestureRecognizer!
     var originalIndexPath: IndexPath?
     var draggingIndexPath: IndexPath?
     var draggingView: UIView?
     var dragOffset = CGPoint.zero
+    
+    public init() {
+        super.init()
+    }
     
     override func prepare() {
         super.prepare()
